@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uid" prefix="rendition: http://www.idpf.org/vocab/rendition/#">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <dc:identifier id="uid">http://epub.sample/sample1</dc:identifier>
+        <dc:title> Scroll Snap test </dc:title>
+        <dc:language> ja </dc:language>
+        <meta property="rendition:layout">pre-paginated</meta>
+        <meta property="rendition:spread">none</meta>
+    </metadata>
+    <manifest>
+        <item href="chap1.html" id="chap1" media-type="text/html" />
+        <item href="chap2.html" id="chap2" media-type="text/html" />
+        <item href="css/base.css" id="css" media-type="text/css" />
+        <item href="toc.html" id="toc" properties="nav" media-type="application/xhtml+xml" />
+    </manifest>
+    <spine>
+        <itemref idref="chap1"/>
+        <itemref idref="chap2"/>
+    </spine>
+</package>

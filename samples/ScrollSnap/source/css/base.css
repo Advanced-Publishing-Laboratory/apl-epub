@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    margin: 0;
+    padding: 0;
+}
+
+.page{
+    height: 500px;
+}
+
+.docScroller{
+    width: 500px;
+    height: 500px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-scroll-snap-points-y: repeat(500px);
+    scroll-snap-points-y: repeat(500px);
+    -webkit-scroll-snap-type: mandatory;
+    scroll-snap-type: mandatory;
+}
