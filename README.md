@@ -1,5 +1,9 @@
 # APL EPUB Working Groupのリポジトリ
-このリポジトリでは、W3Cで議論が進んでいるEPUB仕様について、日本語で状況をお伝えいたします。
+このリポジトリでは、W3Cで議論が進んでいるEPUB仕様について、日本語で状況をお伝えいたします。くわしくは[Wiki](https://github.com/Advanced-Publishing-Laboratory/apl-epub/wiki)をご覧ください。
+
+また、EPUBに関する技術的な質問なども受け付けるとともに、一緒に検討される仲間の参加を待っております。
+参加方法については、[参加方法](CONTRIBUTING.md)をお読みください。
+
 
 ## EPUB仕様の日本語訳について
 EPUB仕様の[日本語訳](http://imagedrive.github.io/spec/index.xhtml)
